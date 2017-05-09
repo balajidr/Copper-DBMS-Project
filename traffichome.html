@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>TRAFFIC</title>
+<meta charset="utf-8" />
+ <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body bgcolor="black">
+<br>
+<br>
+<center>
+<font align=center size=24 color="white">TRAFFIC ISSUE REGISTRATION</font>
+</center>
+<script>
+function openWin() {
+    window.open("areas.php");
+}
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form name="traffic" action="trafficdup.php" method="post" align="center">
+<p style="color:white;"> ISSUE ID 	: <input type="text" name="issue_id" /> </p>
+<p style="color:white;">  Name      	: <input type="text" name="name" /> </p>
+<p style="color:white;">  Area Code     	: <input type="text" name="area" /> </p>
+<p style="color:white;">  Phone No.   : <input type="text" name="phone_number" /> </p>
+<p style="color:white;"> <input type="submit" style="color:black " value="SUBMIT" /> </p>
+
+</form>
+
+<br><br>
+<center><input type="button" style="color:black " value="VIEW YOUR AREA CODE" onclick="openWin()"/></center>
+</body>
+</html>
